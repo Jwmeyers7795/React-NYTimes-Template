@@ -1,0 +1,128 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #666666;
+}
+@media screen and (min-width: 1101px) {
+    .rs-main-articles-container {
+        margin-left: 13px;
+        width: 40%;
+        min-width: 375px;
+        padding-left: 12px;
+        border-left: 1px solid #D1D1D1;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .rs-main-articles-container {
+        margin-left: 3px;
+        width: 20%;
+        max-width: 275px;
+        padding-left: 2px;
+        border-left: 1px solid #D1D1D1;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .rs-main-articles-container {
+        display: none;
+    }
+}
+@media screen and (min-width: 1101px) {
+    .opinion-articles {
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #CFCFCF;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .opinion-articles {
+        padding-bottom: 20px;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1101px) {
+    .opinion-article-2 {
+        margin-left: 25px;
+        padding-left: 13px;
+        border-left: 1px solid #D1D1D1;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .opinion-article-2 {
+        margin-top: 30px;
+        margin-left: 0;
+        padding-left: 13px;
+        border-left: none;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .opinion-article-1 {
+      margin-left: 0;
+      padding-left: 13px;
+      border-left: none;
+    }
+}
+.rs-article-1 {
+    margin-bottom: 15px;
+}
+.opinion-pages-title {
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Times New Roman;
+    display: flex;
+    justify-content: center;
+}
+.r1-opinion-headline {
+    margin: 3px 0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Times New Roman;
+}
+.opinion-list {
+  margin-top: 16px;
+}
+.opinion-link {
+    margin: 3px 0 0 10px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: TimesNew Roman;
+    list-style-type: disc;
+}
+.watching-headline {
+    margin: 6px 0;
+    padding-bottom: 6px;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Gill Sans;
+    border-bottom: 1px solid #BFBFBF;
+}
+@media screen and (max-width: 1100px) {
+    .rs-article-2 {
+        display: none;
+    }
+}
+.divide {
+    margin: 10px 0 0 20px;
+}
+.one-hour {
+    font-size: 12px;
+    color: #6B6A6A;
+}
+.watching-pic-citation {
+    text-align: center;
+    font-size: 9px;
+    font-family: Times New Roman;
+    color: #D1D1D1;
+}
+.watching-description {
+    margin-top: 5px;
+    font-size: 12px;
+    font-family: arial;
+}
+
+ul {
+  padding-inline-start: 0px;
+}

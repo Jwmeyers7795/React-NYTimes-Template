@@ -1,0 +1,70 @@
+a {
+    text-decoration: none;
+    color: #000000;
+}
+a:hover {
+    color: #666666;
+}
+@media screen and (min-width: 1101px) {
+    .c-main-articles-container {
+        width: 40%;
+        min-width: 400px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .c-main-articles-container {
+        width: 50%;
+        min-width: 400px;
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .c-main-articles-container {
+        width: 65%;
+        min-width: 400px;
+        padding-right: 0;
+    }
+}
+@media screen and (max-width: 740px) {
+    .c-main-articles-container {
+        width: 100%;
+        /* min-width: 400px; */
+        padding-right: 0;
+    }
+}
+.pic-width {
+    width: 100%;
+}
+.image-caption {
+    margin-bottom: 2px;
+    font-size: 12px;
+    font-family: Times New Roman;
+    color: #474749;
+}
+.c1-headline {
+    margin: 10px 0 5px 0;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: Times New Roman;
+}
+.c2-headline {
+    margin: 10px 0 5px 0;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: Times New Roman;
+}
+.pictures-of-the-day {
+    margin: 2px 0 7px 0;
+    font-size: 13px;
+    font-weight: 700;
+}
+.evening-briefing-pic-citation {
+    font-size: 9px;
+    font-family: Times New Roman;
+    color: #D1D1D1;
+}
+
+.time {
+  margin-left: 10px;
+}
