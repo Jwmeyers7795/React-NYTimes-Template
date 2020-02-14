@@ -23,6 +23,11 @@
           $(this).css("background", "white");
         });
 
+        $(".option-two").click(function(){
+          $(".search-box").toggle();
+          $(".search-go").toggle();
+        });
+
         const emailInput = document.querySelector(".email");
         const passwordInput = document.querySelector(".password");
         const submitbtn = document.querySelector(".styled-3");
@@ -31,6 +36,10 @@
 
         function presssubmit(e){
           e.preventDefault();
+          $(".error-1").hide();
+          $(".error-2").hide();
+          $(".email").removeClass("input-error");
+          $(".password").removeClass("input-error");
           if (emailInput.value == '' && passwordInput.value == '') {
             $(".error-1").show();
             $(".error-2").show();
@@ -44,8 +53,29 @@
             $(".password").addClass("input-error");
           } else {
             alert("Welcome " + emailInput.value);
+            (emailInput.value = '');
+            (passwordInput.value = '');
           }
         }
+
+        $(".email").blur(function(){
+          if (emailInput.value == '') {
+            $(".error-1").show();
+            $(".email").addClass("input-error");
+          } else {
+            $(".error-1").hide();
+            $(".email").removeClass("input-error");
+          }
+        })
+        $(".password").blur(function(){
+          if (passwordInput.value == '') {
+            $(".error-2").show();
+            $(".password").addClass("input-error");
+          } else {
+            $(".error-2").hide();
+            $(".password").removeClass("input-error");
+          }
+        });
 
         // const showbullet = document.querySelector(props.info.r1bullet4);
         //

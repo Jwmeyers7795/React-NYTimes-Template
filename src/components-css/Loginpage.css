@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 a {
-
     color: #000000;
+    transition-delay: 0.1s;
 }
 .login-header {
     height: 60px;
@@ -164,4 +164,7 @@ form {
 }
 .sign-up {
   margin-top: 15px;
+}
+.remember {
+  margin-right: 5px;
 }

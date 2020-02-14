@@ -4,6 +4,7 @@ a {
 }
 a:hover {
     color: #666666;
+    transition-delay: 0.1s;
 }
 @media screen and (min-width: 1101px) {
     .ls-main-articles-container {

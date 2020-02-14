@@ -4,6 +4,7 @@ a {
 }
 a:hover {
     color: #666666;
+    transition-delay: 0.1s;
 }
 @media screen and (min-width: 1101px) {
     .c-main-articles-container {
@@ -42,6 +43,10 @@ a:hover {
     font-family: Times New Roman;
     color: #474749;
 }
+.c-article-1 {
+    border-bottom: 2px solid #D9D6D6;
+    padding-bottom: 15px;
+}
 .c1-headline {
     margin: 10px 0 5px 0;
     font-size: 19px;
@@ -67,4 +72,11 @@ a:hover {
 
 .time {
   margin-left: 10px;
+}
+.author-and-time {
+  display: flex;
+  justify-content: center;
+}
+.author {
+  max-width: 135px;
 }

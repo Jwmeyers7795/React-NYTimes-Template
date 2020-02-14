@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
+
 import '../components-css/Loginpage.css'
 import Headline from '../NYT_images/headline.png'
 
@@ -18,21 +20,23 @@ class Loginpage extends Component {
             <div><button name="facebook" className="styled-2">Continue with Facebook</button></div>
             <div className="or-email">Or use your email</div>
             <form className="discount" action="index.html" method="post">
-                <label for="email" className="email-label">Email Address</label>
+                <label htmlFor="email" className="email-label">Email Address</label>
                 <input type="text" className="email" name="email" />
                 <div className="error-1">Please enter your username or email address</div>
-                <label for="password" className="password-label">Password</label>
+                <label htmlFor="password" className="password-label">Password</label>
                 <input type="password" className="password" name="password" />
                 <div className="error-2">Please enter a password</div>
                 <div className="flex">
                   <div>
                       <input type="checkbox" className="remember" name="remember" />
-                      <label for="remember">Remeber me</label>
+                      <label htmlFor="remember">Remember me</label>
                   </div>
                   <div className="forgot"><a href="#" target="_self">Forgot your password?</a></div>
                 </div>
                 <div className="error-3">The email address and password you entered don't match any NYTimes account. Please try again.</div>
-                <input className="styled-3" value="Log In" type="submit" />
+                
+                  <button type="button" className="styled-3" value="Log In">Log In</button>
+
                 <div className="sign-up">Don't have a Times account? <a href="#" target="_self" className="create">Create one</a></div>
             </form>
         </div>
@@ -40,5 +44,6 @@ class Loginpage extends Component {
     )
   }
 }
+
 
 export default Loginpage
